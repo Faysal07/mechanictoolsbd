@@ -1,0 +1,58 @@
+[
+    {
+        "productID": 1,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Computer",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 200,
+        "productCatagories": "Computer"
+    },
+    {
+        "productID": 2,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Electronics",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 265,
+        "productCatagories": "Electronics"
+    },
+    {
+        "productID": 3,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Security",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 150,
+        "productCatagories": "Security"
+    },
+    {
+        "productID": 4,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Travel",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 380,
+        "productCatagories": "Travel"
+    },
+    {
+        "productID": 5,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Health",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 250,
+        "productCatagories": "Health"
+    },
+    {
+        "productID": 6,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Car & Bike",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 450,
+        "productCatagories": "Car & Bike"
+    },
+    {
+        "productID": 7,
+        "productImage": "https://i.postimg.cc/7Zc1vnvD/computer-Icon.png",
+        "productTitle": "Furniture",
+        "productDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "productAvailable": 350,
+        "productCatagories": "Furnitue"
+    }
+]

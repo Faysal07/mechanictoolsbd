@@ -1,0 +1,62 @@
+[
+    {
+        "productID": 1,
+        "productImage": "https://i.postimg.cc/PqXNkdpm/Protector-Cuting-Machine-One.jpg",
+        "productTitle": "MECHANIC TOOLS CUTTING MACHINE",
+        "productDescription": "PROTECTOR CUTTING MACHINE",
+        "productAvailable": 200,
+        "productCatagories": "Computer",
+        "productPrice" : 1850,
+        "SKU" : 138458
+    },
+    {
+        "productID": 2,
+        "productImage": "https://i.postimg.cc/Y2ZRRCjy/Microscope-Camera-One.jpg",
+        "productTitle": "KAISI TX-350E MICROSCOPE",
+        "productDescription": "MICROSCOPE, Trinoculler",
+        "productAvailable": 265,
+        "productCatagories": "Electronics",
+        "productPrice" : 2250,
+        "SKU" : 128460
+    },
+    {
+        "productID": 3,
+        "productImage": "https://i.postimg.cc/mrLykc6S/Power-Supply-One.jpg",
+        "productTitle": "MECHANIC PROGRAM",
+        "productDescription": "POWER SUPPLY & TEST TOOLS, DC Power Supply",
+        "productAvailable": 150,
+        "productCatagories": "Security",
+        "productPrice" : 2500,
+        "SKU" : 108758
+    },
+    {
+        "productID": 4,
+        "productImage": "https://i.postimg.cc/PqXNkdpm/Protector-Cuting-Machine-One.jpg",
+        "productTitle": "MECHANIC TOOLS CUTTING MACHINE",
+        "productDescription": "PROTECTOR CUTTING MACHINE",
+        "productAvailable": 200,
+        "productCatagories": "Computer",
+        "productPrice" : 1850,
+        "SKU" : 138458
+    },
+    {
+        "productID": 5,
+        "productImage": "https://i.postimg.cc/Y2ZRRCjy/Microscope-Camera-One.jpg",
+        "productTitle": "KAISI TX-350E MICROSCOPE",
+        "productDescription": "MICROSCOPE, Trinoculler",
+        "productAvailable": 265,
+        "productCatagories": "Electronics",
+        "productPrice" : 2250,
+        "SKU" : 128460
+    },
+    {
+        "productID": 6,
+        "productImage": "https://i.postimg.cc/mrLykc6S/Power-Supply-One.jpg",
+        "productTitle": "MECHANIC PROGRAM",
+        "productDescription": "POWER SUPPLY & TEST TOOLS, DC Power Supply",
+        "productAvailable": 150,
+        "productCatagories": "Security",
+        "productPrice" : 2500,
+        "SKU" : 108758
+    }
+]
