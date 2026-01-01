@@ -30,7 +30,7 @@ export default function PopularCatagories(){
     return(
         <div className="py-[100px] bg-[#dbdfdf]">
             <div className="container md:max-w-[1370px] m-auto">
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6 sm:text-center">
                     <div className="title content-center">
                         <h2 className="text-[26px] font-bold">Popular Categories</h2>
                         <p className="text-[14px]">Explore our trending collections</p>

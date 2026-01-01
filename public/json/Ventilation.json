@@ -1,0 +1,32 @@
+[
+    {
+        "productID": 1,
+        "productImage": "https://i.postimg.cc/prTrtYsG/valtilation-Pro-One.jpg",
+        "productTitle": "MECHANIC TOOLS CUTTING MACHINE",
+        "productDescription": "PROTECTOR CUTTING MACHINE",
+        "productAvailable": 200,
+        "productCatagories": "Computer",
+        "productPrice" : 1850,
+        "SKU" : 138458
+    },
+    {
+        "productID": 2,
+        "productImage": "https://i.postimg.cc/prbvsfg0/valtilation-Pro-Two.jpg",
+        "productTitle": "KAISI TX-350E MICROSCOPE",
+        "productDescription": "MICROSCOPE, Trinoculler",
+        "productAvailable": 265,
+        "productCatagories": "Electronics",
+        "productPrice" : 2250,
+        "SKU" : 128460
+    },
+    {
+        "productID": 3,
+        "productImage": "https://i.postimg.cc/3xQm5zHr/Microscope-Camera-Three.jpg",
+        "productTitle": "MECHANIC PROGRAM",
+        "productDescription": "POWER SUPPLY & TEST TOOLS, DC Power Supply",
+        "productAvailable": 150,
+        "productCatagories": "Security",
+        "productPrice" : 2500,
+        "SKU" : 108758
+    }
+]

@@ -1,7 +1,11 @@
-//Json Link Up
-import { useEffect, useState } from "react";
+//Icon Link Here
+import ComputerIcon from "../../public/images/computerIcon.png";
 
-type RecentProduct = {
+import { useEffect, useState } from "react";
+import { data } from "react-router";
+
+//Assign Type whren using Typescript
+type VentilationProduct = {
     productID: number;
     productImage: string;
     productTitle: string;
@@ -12,27 +16,28 @@ type RecentProduct = {
     SKU: number;
 };
 
-export default function RecentProducts() {
+
+export default function Ventilation(){
     // Mapping for Casual Shoe
-    const [RecentProducts, setRecentProducts] = useState<RecentProduct[]>([]);
-    
+    const [VentilationProducts, setVentilationProducts] = useState<VentilationProduct[]>([]);
+
     // Use Effect for Casual Shoe
     useEffect(() => {
-        fetch("../../public/json/RecentProducts.json")
+        fetch("../../public/json/Ventilation.json")
         .then(res => res.json())
-        .then(data => setRecentProducts(data))
+        .then(data => setVentilationProducts(data))
         .catch(err => console.log(err));
     }, []);
 
     return(
-        <div className="pb-[100px] bg-[#dbdfdf]">
+        <div className="py-[50px] bg-[#dbdfdf]">
             <div className="container md:max-w-[1370px] m-auto">
                 <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-6 md:mb-[30px]">
                     <div className="title content-center">
-                        <h2 className="text-[26px] font-bold">Recent <span className="text-[#4fa44b]">Products</span></h2>
+                        <h2 className="text-[26px] font-bold">Microscope Products</h2>
                         <p className="text-[14px]">Explore our trending collections</p>
                     </div>
-                    <div className="buttonTag text-right sm:hidden md:block">
+                    <div className="buttonTag text-right">
                         <a href="#" className="btn bg-[#4fa44b] text-[#ffffff]">All Categories</a>
                     </div>
                 </div>
@@ -40,7 +45,7 @@ export default function RecentProducts() {
 
                     {
 
-                    RecentProducts.map((Product, i) =>
+                    VentilationProducts.map((Product, i) =>
 
                     <div className="card bg-base-100 shadow-sm sm:px-[20px]">
                         <figure className="px-10 pt-10">
@@ -61,9 +66,6 @@ export default function RecentProducts() {
                     )
 
                     }
-                </div>
-                <div className="grid sm:grid-cols-1 sm:block md:hidden pt-[20px] px-[30px]">
-                    <a href="#" className="btn bg-[#4fa44b] text-[#ffffff]">Show Recent Products</a>
                 </div>
             </div>
         </div>
